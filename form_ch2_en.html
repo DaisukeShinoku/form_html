@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>test</title>
+  </head>
+  <body>
+    <h1>form test</h1>
+    <!-- form 要素 -->
+    <form action="/form/send" method="POST">
+      入力1<input name="name"><br>
+      誕生日 <input name="bday" type="date"><br>
+      email <input name="email" type="email"><br>
+      性別 <label><input name="gender" type="radio" value="1">無回答</label>
+          <label><input name="gender" type="radio" value="2">男性</label>
+          <label><input name="gender" type="radio" value="3">女性</label>
+          <br>
+      趣味 <label><input name="syumi" type="checkbox" value="1">スポーツ</label>
+          <label><input name="syumi" type="checkbox" value="2">読書</label>
+          <label><input name="syumi" type="checkbox" value="3">ゲーム</label>
+          <label><input name="syumi" type="checkbox" value="4">料理</label>
+          <label><input name="syumi" type="checkbox" value="5">食</label>
+          <label><input name="syumi" type="checkbox" value="6">旅行</label>
+          <br>
+      <button>送信する</button>
+    </form>
+  </body>
+</html>
